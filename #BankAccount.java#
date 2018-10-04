@@ -37,10 +37,12 @@ public class BankAccount{
       return false;
     }
   }
-    /*
+    
     private boolean authenticate(String password){
+	return
     }
-    */
+    
     public boolean transferTo(BankAccount other, double amount, String password){
+	if(amount >= 0 && amount <= this.getBalance() && 
     }
 }
