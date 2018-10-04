@@ -1,6 +1,6 @@
 public class BankAccount{
   private double balance;
-  private accountID int;
+  private int accountID;
   private String password;
   public BankAccount(double balance, accountID int, String password){
     this.balance = balance;
